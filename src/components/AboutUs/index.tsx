@@ -5,9 +5,8 @@ import Link from "next/link";
 const AboutUs: React.FC = () => {
   return (
     <div className="flex flex-col w-full max-w-[400px] basis-[400px] py-8">
-      <h1 className="text-4xl font-bold">关注推特<a href="https://twitter.com/ssktf1631641">道士钟发白</a></h1>
+      <h1 className="text-4xl font-bold">关注推特<a href="https://twitter.com/ssktf1631641">面若桃花</a></h1>
       <p className="text-xs mt-2 text-gray-400">提前在TG群发开源脚本 <a href="https://t.me/jingetiemas">TG群</a></p>
-      <Image src="/shareQrcode.png" width={360} alt="" height={400} />
       <div className="flex justify-center mb-2 w-[360px]">
         <Link
           href={`https://github.com/TheSkyl/serimint`}
